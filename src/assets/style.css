@@ -1,7 +1,7 @@
 :root {
   --background-color: #f4f1ec;
   --foreground-color: #000000;
-  --highlight-color: white;
+  --highlight-color: black;
   --box-border-radius: 6px;
   --media-border-radius: 8px;
   --dot-size: 8px;
@@ -90,7 +90,7 @@ a.site-title:visited {
 
 a.site-title:hover {
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a.item-link:link,
@@ -138,7 +138,7 @@ a.item-link:hover {
 
 .header-title {
   flex: 1;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 10px;
   padding-right: 10px;
 }
